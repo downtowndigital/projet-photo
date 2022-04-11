@@ -1,8 +1,61 @@
+
 /*import de la font--------*/
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
 
 body{
    font-family:'open Sans Condensed';
    background:(#F6A844)
 }
+
+
+
+
+
+
+
+
+
+
+.Landscapes {  display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    
+  }
+  
+  .Ville {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+
+  .Campagne {
+      grid-area: 2/ 3/ 2/ 1;
+  }
+
+  .Plage {
+      grid-area: 3/ 1/ 2/ 3;
+  }
+
+  .Brume {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+
+  .Fleuve {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+
+  .Champs {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+
+  .Arbre {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+  
+  .Palmiers {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+
+  .Montagne {
+      grid-area: 1/ 1/ 2/ 3;
+  }
+
 
